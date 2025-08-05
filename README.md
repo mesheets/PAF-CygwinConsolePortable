@@ -2,7 +2,7 @@ PortableApps.com Format Packaging for Cygwin Console
 ====================================================
 A [PortableApps.com](https://portableapps.com/) package bundler for the Cygwin Console project,
 which is an edition of the [PortableApps.com Console Portable project](https://portableapps.com/apps/utilities/console_portable)
-that has been specifically configured for a portable Cygwin environment.
+that has been specifically configured for a portable [Cygwin](https://cygwin.com/) environment.
 
 This project is intended to be used in conjunction with the Cygwin Setup Portable project.
 For installation and usage details, please refer to the unified documentation under that project.
