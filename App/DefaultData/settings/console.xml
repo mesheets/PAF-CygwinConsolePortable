@@ -81,16 +81,16 @@
 	</hotkeys>
 	<mouse>
 		<actions>
-			<action ctrl="0" shift="0" alt="0" button="1" name="copy"/>
-			<action ctrl="0" shift="1" alt="0" button="1" name="select"/>
-			<action ctrl="0" shift="0" alt="0" button="3" name="paste"/>
-			<action ctrl="1" shift="0" alt="0" button="1" name="drag"/>
+			<action ctrl="1" shift="0" alt="0" button="1" name="copy"/>
+			<action ctrl="0" shift="0" alt="0" button="1" name="select"/>
+			<action ctrl="1" shift="0" alt="0" button="2" name="paste"/>
+			<action ctrl="1" shift="1" alt="0" button="1" name="drag"/>
 			<action ctrl="0" shift="0" alt="0" button="2" name="menu"/>
 		</actions>
 	</mouse>
 	<tabs>
 		<tab title="Cygwin" icon="%PAL:AppDir%\AppInfo\AppIcon.ico" use_default_icon="0">
-			<console shell="%PAL:PortableAppsBaseDir%\Cygwin\arch-%PROCESSOR_ARCHITECTURE%%PROCESSOR_ARCHITEW6432%\Cygwin.bat" run_as_user="0" user=""/>
+			<console shell="%PortableApps.comRoot%\Cygwin\Cygwin-Portable.bat" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
 			<background type="0" r="0" g="0" b="0">
 				<image file="" relative="0" extend="0" position="0">
